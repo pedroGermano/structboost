@@ -1,37 +1,35 @@
-:root{
+:root {
   /* PRIMARY COLOR */
-  --pink-10: #F67ACB;
-  --pink-20: #CF62A9;
-  --pink-30: #9D457F;
+  --pink-10: #f67acb;
+  --pink-20: #cf62a9;
+  --pink-30: #9d457f;
 
   /* GRAY COLOR  */
-  --gray-900: #0A0B0D;
-  --gray-800: #393B42;
-  --gray-700: #5C5F69;
-  --gray-600: #787C87;
-  --gray-500:  #979BA6;
-  --gray-400: #ABAFBA;
-  --gray-300: #C0C3CC;
-  --gray-200:  #DFE1E8; 
-  --gray-100: #F5F6FA;
-
-
+  --gray-900: #0a0b0d;
+  --gray-800: #393b42;
+  --gray-700: #5c5f69;
+  --gray-600: #787c87;
+  --gray-500: #979ba6;
+  --gray-400: #abafba;
+  --gray-300: #c0c3cc;
+  --gray-200: #dfe1e8;
+  --gray-100: #f5f6fa;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-a{
+a {
   display: inline-block;
   text-decoration: none;
 }
@@ -40,6 +38,52 @@ ul {
   list-style: none;
 }
 
-html{
+html {
   font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: var(--color-gray-800);
+  font-family: 'Sora' sans-serif;
+  line-height: 120%; /* 76.8px */
+}
+
+h1,
+h2,
+h3,
+h4{
+  font-weight: 700;
+}
+h5,
+h5{
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5.6rem;
+}
+
+h2{
+  font-size: 4.8rem;
+}
+
+h3{
+  font-size: 4rem;
+}
+
+h4{
+  font-size: 2.8rem;
+}
+
+h5{
+  font-size: 2.4rem;
+}
+
+h6{
+  font-weight: 600;
 }
