@@ -49,3 +49,47 @@
 .item-digital .info p{
   color: var(--gray-600);
 }
+
+.card-post{
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 2.4rem;
+}
+
+.card-post .tag{
+  display: inline-block;
+  padding: 0.8rem 2.2rem;
+  border-radius: 10.0rem;
+  background: rgba(255, 255, 255, 0.10);
+  color: var(--gray-100);
+  font-family: 'Sora', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  margin-bottom: 4.5rem;
+}
+
+.card-post .image{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+
+.card-post .text{
+  width: 100%;
+  max-width: 50.8rem;
+}
+
+.card-post .text h6{
+  margin-bottom: 0.8rem;
+
+}
+
+.card-post .text p{
+  font-size: 1.6rem;
+  color: var(--gray-600);
+}
