@@ -121,3 +121,17 @@ header nav ul li a:hover{
   border-bottom: 1px solid var(--gray-800);
   padding-bottom: 12.8rem;
 }
+
+.s-art-front{
+  padding: 12.8rem 0;
+}
+
+.s-art-front .art-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-art-front .art-text .right{
+  max-width: 42.9rem;
+}
