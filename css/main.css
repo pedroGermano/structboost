@@ -130,8 +130,40 @@ header nav ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 6.4rem;
 }
+
+.s-art-front .art-text p{
+  color: var(--gray-600);
+  letter-spacing: -0.54px;
+}
+
+.s-art-front .art-text h3{
+  letter-spacing: -1.2px;
+  font-weight: 600;
+}
+
+
+
+.s-art-front .art-text .left{
+  max-width: 53.9rem;
+}
+.s-art-front .art-text .left p{
+  max-width: 45.2rem;
+  margin-top: 1.6rem;
+}
+
 
 .s-art-front .art-text .right{
   max-width: 42.9rem;
+}
+
+.s-art-front .all{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.s-art-front .all .card-post:first-child{
+  grid-column: span 2;
 }
