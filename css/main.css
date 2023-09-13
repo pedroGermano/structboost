@@ -287,4 +287,7 @@ header .btn-burger{
   header{
     height: 7.2rem;
   }
+  header .logo{
+    max-width: 16rem ;
+  }
 }
