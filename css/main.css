@@ -19,6 +19,10 @@ header nav{
   gap: 3.2rem;
 }
 
+header .btn-burger{
+  display: none;
+}
+
 header nav ul {
   display: flex;
   gap: 4rem;
@@ -43,6 +47,7 @@ header nav ul li a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: none;
 }
 
 .s-hero .text{
@@ -106,6 +111,7 @@ header nav ul li a:hover{
 
 .s-about{
   padding-top: 12.8rem;
+  display: none;
 }
 
 .s-about h3{
@@ -124,6 +130,7 @@ header nav ul li a:hover{
 
 .s-art-front{
   padding: 12.8rem 0;
+  display: none;
 }
 
 .s-art-front .art-text{
@@ -171,6 +178,7 @@ header nav ul li a:hover{
 .s-newsletter{
   padding: 8.9rem 0;
   background: var(--pink-10);
+  display: none;
 }
 
 .s-newsletter .container{
@@ -193,6 +201,7 @@ header nav ul li a:hover{
 
 footer{
   padding: 4.8rem 0;
+  display: none;
 }
 
 footer .main-area{
@@ -259,4 +268,23 @@ footer .copy{
 
 footer .copy strong{
   font-weight: 600;
+}
+
+@media(max-width: 1200px){
+
+}
+@media(max-width: 991px){}
+@media(max-width: 768px){
+  header nav{
+    display: none;
+  }
+  
+header .btn-burger{
+  display: block;
+}
+}
+@media(max-width: 560px){
+  header{
+    height: 7.2rem;
+  }
 }
