@@ -111,7 +111,6 @@ header nav ul li a:hover {
 
 .s-about {
   padding-top: 12.8rem;
-  display: none;
 }
 
 .s-about h3 {
@@ -267,10 +266,29 @@ footer .copy strong {
 }
 
 @media (max-width: 1200px) {
+  .s-about{
+    padding-top: 6.8rem;
+
+  }
+  .s-about ul{
+    gap: 3.2rem;
+    padding-top: 6.8rem;
+
+  }
+  .s-about .info h6{
+    font-size: 2rem;
+  }
+  .s-about .info p{
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 991px) {
   .s-hero::after{
     height: 13rem;
+  }
+  .s-about ul{
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
@@ -337,5 +355,19 @@ footer .copy strong {
   }
   .s-hero::after{
     height: 22rem;
+  }
+  .s-about{
+    padding-top: 8rem;
+  }
+  .s-about ul{
+    padding-bottom: 8rem;
+  }
+
+  .s-about h3{
+    font-size: 2.8rem;
+  }
+
+  .s-about ul {
+    gap: 6.4rem;
   }
 }
