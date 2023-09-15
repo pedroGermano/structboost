@@ -45,7 +45,6 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  display: none;
 }
 
 .s-hero .text {
@@ -266,10 +265,35 @@ footer .copy strong {
 @media (max-width: 1200px) {
 }
 @media (max-width: 991px) {
+  .s-hero::after{
+    height: 13rem;
+  }
 }
 @media (max-width: 768px) {
   header nav {
     display: none;
+  }
+  .s-hero{
+    padding-top: 6rem;
+  }
+  .s-hero .text h1{
+    max-width: 49rem;
+    margin: 0 auto;
+  }
+  .s-hero .text h1::before{
+    left: 0;
+    bottom: -4px;
+    background-size: 100%;
+  }
+
+  .s-hero .text p{
+    max-width: 41.6rem;
+  }
+
+  .s-hero .text .arrow{
+    bottom: 3.7rem;
+    left: 2rem;
+    max-width: 60px;
   }
 
   header .btn-burger {
@@ -282,5 +306,23 @@ footer .copy strong {
   }
   header .logo {
     max-width: 16rem;
+  }
+
+  .s-hero{
+    padding-bottom: 8.8rem;
+  }
+  .s-hero .text h1{
+    font-size: 4rem;
+  }
+  .s-hero .text h1::before{
+    bottom: -6px;
+  }
+  .s-hero .text p{
+    margin-top: 0.8rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+  }
+  .s-hero .text .arrow {
+    display: none;
   }
 }
