@@ -94,6 +94,10 @@ header nav ul li a:hover {
   padding: 0 1.5rem;
 }
 
+.s-hero .ilustra-mobile{
+  display: none;
+}
+
 .s-hero::after {
   content: "";
   position: absolute;
@@ -324,5 +328,14 @@ footer .copy strong {
   }
   .s-hero .text .arrow {
     display: none;
+  }
+  .s-hero .ilustra{
+    display: none;
+  }
+  .s-hero .ilustra-mobile{
+    display: block;
+  }
+  .s-hero::after{
+    height: 22rem;
   }
 }
